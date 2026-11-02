@@ -1,5 +1,7 @@
 # photo-archive-organizer
 
+![photo-archive-organizer](assets/social-preview.png)
+
 [Türkçe](README.tr.md)
 
 A [Claude Code](https://claude.com/claude-code) skill that safely organizes family

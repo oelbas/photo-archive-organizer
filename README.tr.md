@@ -1,5 +1,7 @@
 # photo-archive-organizer
 
+![photo-archive-organizer](assets/social-preview.png)
+
 [English](README.md)
 
 Harici disklere ve bilgisayara dağılmış aile fotoğraf ve video arşivlerini
