@@ -1,0 +1,48 @@
+{
+  "_comment": "Copy to ~/.config/photo-archive-organizer/config.json and edit. Keys starting with _ are ignored.",
+
+  "_language": "en or tr: default folder names (Photos/Foto, Undated/Tarihsiz, Logs/Kayitlar ...)",
+  "language": "en",
+
+  "_folder_names": "override single folder names, e.g. {\"photos\": \"Pictures\"}",
+  "folder_names": {},
+
+  "_hash_len": "hash characters in dated names; undated names use hash_len_undated",
+  "hash_len": 4,
+  "hash_len_undated": 6,
+
+  "_keep_descriptive_names": "keep names a person typed (Diploma.jpg) instead of renaming",
+  "keep_descriptive_names": true,
+
+  "_generic_name_patterns": "extra regexes (full match on the name without extension) that may be renamed",
+  "generic_name_patterns": [],
+
+  "_min_year": "earliest plausible capture year; earlier or future dates are treated as a broken clock",
+  "min_year": 1950,
+
+  "_similar_threshold": "Vision distance counted as the same picture; up to review_threshold is only listed",
+  "similar_threshold": 0.15,
+  "review_threshold": 0.25,
+  "vision_min_side": 500,
+
+  "_raw_policy": "keep = RAW files with a JPEG twin are only listed; similar = offered for removal",
+  "raw_policy": "keep",
+
+  "_quicktime_utc": "treat QuickTime CreateDate as UTC (spec) instead of local time (many cameras)",
+  "quicktime_utc": false,
+
+  "_trust_existing_names": "do not re-read files already named <date>_<hash> by this tool",
+  "trust_existing_names": true,
+
+  "_separate_screenshots": "screenshots go to <year>/Screenshots instead of month folders",
+  "separate_screenshots": true,
+
+  "_albums": "folder names (anywhere) or relative paths that must stay as they are",
+  "albums": ["Wedding", "VIDEO_TS"],
+
+  "_device_owners": "camera model -> person, shown by the devices command",
+  "device_owners": {"iPhone 11": "Anna", "Canon EOS 6D": "Ben"},
+
+  "_roots": "names for places, so you can say 'Anna on the backup disk'",
+  "roots": {"Anna archive": "/Volumes/Archive/Pictures/Anna", "Anna backup": "/Volumes/Backup/Anna"}
+}
